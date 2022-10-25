@@ -110,7 +110,6 @@ srt.obj_subset <- subset(srt.obj, subset = nFeature_RNA < RNA.max &
 srt.obj_subset
 head(srt.obj_subset@meta.data)
 
-
 ###Use Scrublet to detect obvious doublets
 #https://matthieuxmoreau.github.io/EarlyPallialNeurogenesis/html-Reports/Quality_Control.html#Use_Scrublet_to_detect_obvious_doublets
 install.packages("ggExtra")
